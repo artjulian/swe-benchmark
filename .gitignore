@@ -170,3 +170,4 @@ cython_debug/
 data/repos/copies
 notebooks/
 *logs/
+cloned_repos/
