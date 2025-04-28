@@ -1,0 +1,997 @@
+{
+  "instance_id": "scikit-learn__scikit-learn-9288",
+  "results": [
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_result_of_kmeans_equal_in_diff_n_jobs",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_kmeans_results[float32-dense-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_kmeans_results[float32-dense-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_kmeans_results[float32-sparse-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_kmeans_results[float64-dense-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_kmeans_results[float64-dense-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_kmeans_results[float64-sparse-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_elkan_results[normal]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_elkan_results[blobs]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_labels_assignment_and_inertia",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_update_consistency",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_new_centers",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_plus_plus_init_2_jobs",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_precompute_distances_flag",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_plus_plus_init_not_precomputed",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_random_init_not_precomputed",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_init[random-dense]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_init[random-sparse]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_init[k-means++-dense]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_init[k-means++-sparse]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_init[init2-dense]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_init[init2-sparse]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_n_init",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_explicit_init_shape[KMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_explicit_init_shape[MiniBatchKMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fortran_aligned_data",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[0-2-1e-07-asarray-float32-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[0-2-1e-07-asarray-float32-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[0-2-1e-07-asarray-float64-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[0-2-1e-07-asarray-float64-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[0-2-1e-07-csr_matrix-float32-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[0-2-1e-07-csr_matrix-float32-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[0-2-1e-07-csr_matrix-float64-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[0-2-1e-07-csr_matrix-float64-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[1-2-0.1-asarray-float32-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[1-2-0.1-asarray-float32-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[1-2-0.1-asarray-float64-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[1-2-0.1-asarray-float64-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[1-2-0.1-csr_matrix-float32-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[1-2-0.1-csr_matrix-float32-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[1-2-0.1-csr_matrix-float64-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[1-2-0.1-csr_matrix-float64-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[3-300-1e-07-asarray-float32-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[3-300-1e-07-asarray-float32-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[3-300-1e-07-asarray-float64-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[3-300-1e-07-asarray-float64-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[3-300-1e-07-csr_matrix-float32-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[3-300-1e-07-csr_matrix-float32-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[3-300-1e-07-csr_matrix-float64-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[3-300-1e-07-csr_matrix-float64-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[4-300-0.1-asarray-float32-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[4-300-0.1-asarray-float32-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[4-300-0.1-asarray-float64-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[4-300-0.1-asarray-float64-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[4-300-0.1-csr_matrix-float32-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[4-300-0.1-csr_matrix-float32-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[4-300-0.1-csr_matrix-float64-full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_fit_predict[4-300-0.1-csr_matrix-float64-elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_mb_kmeans_verbose",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_init_with_large_k",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_k_means_init_multiple_runs_with_explicit_centers",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_k_means_init[random-dense]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_k_means_init[random-sparse]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_k_means_init[k-means++-dense]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_k_means_init[k-means++-sparse]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_k_means_init[init2-dense]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_k_means_init[init2-sparse]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_sensible_reassign_fit",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_sensible_reassign_partial_fit",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_reassign",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_with_many_reassignments",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_sparse_mb_k_means_callable_init",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_mini_batch_k_means_random_init_partial_fit",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_default_init_size",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_tol",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_set_init_size",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_invalid_init[KMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_invalid_init[MiniBatchKMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_copyx",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_non_collapsed",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_score[full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_score[elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict[random-dense-KMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict[random-dense-MiniBatchKMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict[random-sparse-KMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict[random-sparse-MiniBatchKMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict[k-means++-dense-KMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict[k-means++-dense-MiniBatchKMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict[k-means++-sparse-KMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict[k-means++-sparse-MiniBatchKMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict[init2-dense-KMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict[init2-dense-MiniBatchKMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict[init2-sparse-KMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict[init2-sparse-MiniBatchKMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict_minibatch_dense_sparse[random]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict_minibatch_dense_sparse[k-means++]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict_minibatch_dense_sparse[init2]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_int_input",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_transform",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_fit_transform",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict_equal_labels[full]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_predict_equal_labels[elkan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_full_vs_elkan",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_n_init",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_function",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_x_squared_norms_init_centroids",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_max_iter_error",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_float_precision[False-KMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_float_precision[False-MiniBatchKMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_float_precision[True-KMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_float_precision[True-MiniBatchKMeans]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_init_centers",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_init_fitted_centers[dense]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_init_fitted_centers[sparse]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_sparse_validate_centers",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_less_centers_than_unique_points",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_weighted_vs_repeated",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_unit_weights_vs_no_weights",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_scaled_weights",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_sample_weight_length",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_check_normalize_sample_weight",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_iter_attribute",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_k_means_empty_cluster_relocated",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    },
+    {
+      "test_file": "sklearn/cluster/tests/test_k_means.py",
+      "test_case": "test_minibatch_kmeans_partial_fit_int_data",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/conftest.py'.\nconftest.py:14: in <module>\n    from sklearn import set_config\nsklearn/__init__.py:75: in <module>\n    from . import __check_build\nsklearn/__check_build/__init__.py:46: in <module>\n    raise_build_error(e)\nsklearn/__check_build/__init__.py:31: in raise_build_error\n    raise ImportError(\"\"\"%s\nE   ImportError: No module named 'sklearn.__check_build._check_build'\nE   ___________________________________________________________________________\nE   Contents of /app/repo/sklearn/__check_build:\nE   setup.py                  _check_build.pyx          __init__.py\nE   __pycache__\nE   ___________________________________________________________________________\nE   It seems that scikit-learn has not been built correctly.\nE\nE   If you have installed scikit-learn from source, please do not forget\nE   to build the package before using it: run `python setup.py install` or\nE   `make` in the source directory.\nE\nE   If you have used an installer, please check that it is suited for your\nE   Python version, your operating system and your platform.\n"
+    }
+  ]
+}

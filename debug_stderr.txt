@@ -1,0 +1,2 @@
+ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_unsupported_ordering_slicing_raises_db_error
+

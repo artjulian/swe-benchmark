@@ -1,0 +1,253 @@
+{
+  "instance_id": "sphinx-doc__sphinx-10449",
+  "results": [
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_description_with_documented_init",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_description_with_documented_init PASSED [100%]\n\n============================== 1 passed in 0.70s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autoclass_content_class",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autoclass_content_class PASSED   [100%]\n\n============================== 1 passed in 0.69s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autoclass_content_init",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autoclass_content_init PASSED    [100%]\n\n============================== 1 passed in 0.69s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_class_signature_mixed",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_class_signature_mixed PASSED [100%]\n\n============================== 1 passed in 0.68s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_class_signature_separated_init",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_class_signature_separated_init PASSED [100%]\n\n============================== 1 passed in 0.73s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_class_signature_separated_new",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_class_signature_separated_new PASSED [100%]\n\n============================== 1 passed in 0.71s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autoclass_content_both",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autoclass_content_both PASSED    [100%]\n\n============================== 1 passed in 0.68s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_inherit_docstrings",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_inherit_docstrings PASSED [100%]\n\n============================== 1 passed in 0.69s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_docstring_signature",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_docstring_signature PASSED [100%]\n\n============================== 1 passed in 0.69s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autoclass_content_and_docstring_signature_class",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autoclass_content_and_docstring_signature_class PASSED [100%]\n\n============================== 1 passed in 0.71s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autoclass_content_and_docstring_signature_init",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autoclass_content_and_docstring_signature_init PASSED [100%]\n\n============================== 1 passed in 0.68s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autoclass_content_and_docstring_signature_both",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autoclass_content_and_docstring_signature_both PASSED [100%]\n\n============================== 1 passed in 0.67s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_mocked_module_imports",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_mocked_module_imports PASSED     [100%]\n\n============================== 1 passed in 0.68s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_signature",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_signature PASSED [100%]\n\n============================== 1 passed in 0.75s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_none",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_none PASSED    [100%]\n\n============================== 1 passed in 0.77s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_none_for_overload",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_none_for_overload PASSED [100%]\n\n============================== 1 passed in 0.68s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_description",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_description PASSED [100%]\n\n============================== 1 passed in 0.71s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_description_no_undoc",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_description_no_undoc PASSED [100%]\n\n============================== 1 passed in 0.70s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_description_no_undoc_doc_rtype",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_description_no_undoc_doc_rtype PASSED [100%]\n\n============================== 1 passed in 0.70s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_description_with_documented_init_no_undoc",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_description_with_documented_init_no_undoc PASSED [100%]\n\n============================== 1 passed in 0.72s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_description_with_documented_init_no_undoc_doc_rtype",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_description_with_documented_init_no_undoc_doc_rtype PASSED [100%]\n\n============================== 1 passed in 0.71s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_description_for_invalid_node",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_description_for_invalid_node PASSED [100%]\n\n============================== 1 passed in 0.69s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_both",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_both PASSED    [100%]\n\n============================== 1 passed in 0.71s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_type_aliases",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_type_aliases PASSED      [100%]\n\n============================== 1 passed in 0.68s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_description_and_type_aliases",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_description_and_type_aliases PASSED [100%]\n\n============================== 1 passed in 0.73s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_format_fully_qualified",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_format_fully_qualified PASSED [100%]\n\n============================== 1 passed in 0.77s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_format_fully_qualified_for_class_alias",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_format_fully_qualified_for_class_alias PASSED [100%]\n\n============================== 1 passed in 0.69s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_format_fully_qualified_for_generic_alias",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_format_fully_qualified_for_generic_alias PASSED [100%]\n\n============================== 1 passed in 0.68s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_typehints_format_fully_qualified_for_newtype_alias",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_typehints_format_fully_qualified_for_newtype_alias PASSED [100%]\n\n============================== 1 passed in 0.69s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_default_options",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_default_options PASSED   [100%]\n\n============================== 1 passed in 0.75s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_autodoc_configs.py",
+      "test_case": "test_autodoc_default_options_with_values",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.1.0+/36367765f, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_autodoc_configs.py::test_autodoc_default_options_with_values PASSED [100%]\n\n============================== 1 passed in 0.73s ===============================\n",
+      "stderr": ""
+    }
+  ]
+}

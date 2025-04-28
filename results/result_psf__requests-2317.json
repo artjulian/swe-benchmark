@@ -1,0 +1,45 @@
+{
+  "instance_id": "psf__requests-2317",
+  "results": [
+    {
+      "test_file": "test_requests.py",
+      "test_case": "test_data_argument_accepts_tuples",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.9.22, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntest_requests.py::test_data_argument_accepts_tuples PASSED               [100%]\n\n============================== 1 passed in 0.50s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "test_requests.py",
+      "test_case": "test_prepared_request_empty_copy",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.9.22, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntest_requests.py::test_prepared_request_empty_copy PASSED                [100%]\n\n============================== 1 passed in 0.45s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "test_requests.py",
+      "test_case": "test_prepared_request_no_cookies_copy",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.9.22, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntest_requests.py::test_prepared_request_no_cookies_copy PASSED           [100%]\n\n============================== 1 passed in 0.46s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "test_requests.py",
+      "test_case": "test_prepared_request_complete_copy",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.9.22, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntest_requests.py::test_prepared_request_complete_copy PASSED             [100%]\n\n============================== 1 passed in 0.49s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "test_requests.py",
+      "test_case": "test_prepare_unicode_url",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.9.22, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntest_requests.py::test_prepare_unicode_url PASSED                        [100%]\n\n============================== 1 passed in 0.48s ===============================\n",
+      "stderr": ""
+    }
+  ]
+}

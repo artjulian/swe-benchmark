@@ -1,0 +1,53 @@
+{
+  "instance_id": "sphinx-doc__sphinx-10614",
+  "results": [
+    {
+      "test_file": "tests/test_ext_inheritance_diagram.py",
+      "test_case": "test_inheritance_diagram_svg_html",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.2.0+/ac2b7599d, docutils-0.20.1\nbase tmp_path: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_inheritance_diagram.py::test_inheritance_diagram_svg_html SKIPPED [100%]\n\n============================== 1 skipped in 0.60s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_inheritance_diagram.py",
+      "test_case": "test_inheritance_diagram",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.2.0+/ac2b7599d, docutils-0.20.1\nbase tmp_path: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_inheritance_diagram.py::test_inheritance_diagram SKIPPED  [100%]\n\n============================== 1 skipped in 0.59s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_inheritance_diagram.py",
+      "test_case": "test_inheritance_diagram_png_html",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.2.0+/ac2b7599d, docutils-0.20.1\nbase tmp_path: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_inheritance_diagram.py::test_inheritance_diagram_png_html SKIPPED [100%]\n\n============================== 1 skipped in 0.60s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_inheritance_diagram.py",
+      "test_case": "test_inheritance_diagram_latex",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.2.0+/ac2b7599d, docutils-0.20.1\nbase tmp_path: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_inheritance_diagram.py::test_inheritance_diagram_latex SKIPPED [100%]\n\n============================== 1 skipped in 0.63s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_inheritance_diagram.py",
+      "test_case": "test_inheritance_diagram_latex_alias",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.2.0+/ac2b7599d, docutils-0.20.1\nbase tmp_path: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_inheritance_diagram.py::test_inheritance_diagram_latex_alias SKIPPED [100%]\n\n============================== 1 skipped in 0.63s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_ext_inheritance_diagram.py",
+      "test_case": "test_import_classes",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.2.0+/ac2b7599d, docutils-0.20.1\nbase tmp_path: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_ext_inheritance_diagram.py::test_import_classes PASSED        [100%]\n\n============================== 1 passed in 0.48s ===============================\n",
+      "stderr": ""
+    }
+  ]
+}

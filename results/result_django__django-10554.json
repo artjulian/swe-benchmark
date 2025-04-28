@@ -1,0 +1,205 @@
+{
+  "instance_id": "django__django-10554",
+  "results": [
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_union_with_values_list_and_order",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.38s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_union_with_values_list_and_order\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_union_with_values_list_on_annotated_and_unannotated",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.36s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_union_with_values_list_on_annotated_and_unannotated\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_combining_multiple_models",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.37s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_combining_multiple_models\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_count_difference",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.39s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_count_difference\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_count_intersection",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.38s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_count_intersection\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_count_union",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.34s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_count_union\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_count_union_empty_result",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.35s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_count_union_empty_result\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_difference_with_empty_qs",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.38s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_difference_with_empty_qs\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_difference_with_values",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.39s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_difference_with_values\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_intersection_with_empty_qs",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.36s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_intersection_with_empty_qs\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_intersection_with_values",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.34s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_intersection_with_values\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_limits",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.33s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_limits\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_order_raises_on_non_selected_column",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.33s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_order_raises_on_non_selected_column\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_ordering",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.34s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_ordering\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_ordering_by_f_expression",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.33s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_ordering_by_f_expression\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_qs_with_subcompound_qs",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.37s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_qs_with_subcompound_qs\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_simple_difference",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.36s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_simple_difference\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_simple_intersection",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.35s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_simple_intersection\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_simple_union",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.33s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_simple_union\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_union_distinct",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.34s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_union_distinct\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_union_with_empty_qs",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.33s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_union_with_empty_qs\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_union_with_extra_and_values_list",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.34s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_union_with_extra_and_values_list\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_union_with_two_annotated_values_list",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.33s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_union_with_two_annotated_values_list\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_union_with_values",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.34s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_union_with_values\n\n"
+    },
+    {
+      "test_file": "queries/test_qs_combinators.py",
+      "test_case": "QuerySetSetOperationTests.test_unsupported_ordering_slicing_raises_db_error",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.37s =============================\n",
+      "stderr": "ERROR: file or directory not found: queries/test_qs_combinators.py::QuerySetSetOperationTests.test_unsupported_ordering_slicing_raises_db_error\n\n"
+    }
+  ]
+}

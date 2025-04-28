@@ -1,0 +1,245 @@
+{
+  "instance_id": "matplotlib__matplotlib-24637",
+  "results": [
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_annotationbbox_gid",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_annotationbbox_gid PASSED [100%]\n\n============================== 1 passed in 1.05s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_visibility",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_visibility PASSED         [100%]\n\n============================== 1 passed in 1.04s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_noscale[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_noscale[png] PASSED       [100%]\n\n============================== 1 passed in 1.05s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_noscale[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_noscale[pdf] SKIPPED      [100%]\n\n============================== 1 skipped in 0.87s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_text_urls",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_text_urls PASSED          [100%]\n\n============================== 1 passed in 1.03s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_rasterized[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_rasterized[png] <- lib/matplotlib/testing/decorators.py PASSED [100%]\n\n============================== 1 passed in 1.11s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_rasterized[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_rasterized[pdf] <- lib/matplotlib/testing/decorators.py SKIPPED [100%]\n\n============================== 1 skipped in 1.21s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_rasterized_ordering[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_rasterized_ordering[png] <- lib/matplotlib/testing/decorators.py PASSED [100%]\n\n============================== 1 passed in 1.15s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_rasterized_ordering[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_rasterized_ordering[pdf] <- lib/matplotlib/testing/decorators.py SKIPPED [100%]\n\n============================== 1 skipped in 1.21s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_prevent_rasterization[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_prevent_rasterization[pdf] <- lib/matplotlib/testing/decorators.py SKIPPED [100%]\n\n============================== 1 skipped in 1.17s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_count_bitmaps",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_count_bitmaps PASSED      [100%]\n\n============================== 1 passed in 1.27s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svgnone_with_data_coordinates",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_svgnone_with_data_coordinates PASSED [100%]\n\n============================== 1 passed in 1.07s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_gid",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_gid PASSED                [100%]\n\n============================== 1 passed in 1.20s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_savefig_tight",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_savefig_tight PASSED      [100%]\n\n============================== 1 passed in 1.02s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_url",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_url PASSED                [100%]\n\n============================== 1 passed in 1.11s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_url_tick",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_url_tick PASSED           [100%]\n\n============================== 1 passed in 1.07s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svg_default_metadata",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_svg_default_metadata PASSED [100%]\n\n============================== 1 passed in 1.07s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svg_clear_default_metadata",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_svg_clear_default_metadata PASSED [100%]\n\n============================== 1 passed in 1.15s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svg_clear_all_metadata",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_svg_clear_all_metadata PASSED [100%]\n\n============================== 1 passed in 1.06s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svg_metadata",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_svg_metadata PASSED       [100%]\n\n============================== 1 passed in 1.03s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svg_incorrect_metadata[metadata0-TypeError-Invalid",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.86s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_backend_svg.py::test_svg_incorrect_metadata[metadata0-TypeError-Invalid\n(no match in any of [<Module test_backend_svg.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svg_incorrect_metadata[metadata1-TypeError-Invalid",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.86s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_backend_svg.py::test_svg_incorrect_metadata[metadata1-TypeError-Invalid\n(no match in any of [<Module test_backend_svg.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svg_incorrect_metadata[metadata2-TypeError-Invalid",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.95s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_backend_svg.py::test_svg_incorrect_metadata[metadata2-TypeError-Invalid\n(no match in any of [<Module test_backend_svg.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svg_incorrect_metadata[metadata3-TypeError-Invalid",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.77s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_backend_svg.py::test_svg_incorrect_metadata[metadata3-TypeError-Invalid\n(no match in any of [<Module test_backend_svg.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svg_incorrect_metadata[metadata4-TypeError-Invalid",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.78s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_backend_svg.py::test_svg_incorrect_metadata[metadata4-TypeError-Invalid\n(no match in any of [<Module test_backend_svg.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svg_incorrect_metadata[metadata5-TypeError-Invalid",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.77s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_backend_svg.py::test_svg_incorrect_metadata[metadata5-TypeError-Invalid\n(no match in any of [<Module test_backend_svg.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svg_incorrect_metadata[metadata6-TypeError-Invalid",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.77s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_backend_svg.py::test_svg_incorrect_metadata[metadata6-TypeError-Invalid\n(no match in any of [<Module test_backend_svg.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svg_incorrect_metadata[metadata7-TypeError-Invalid",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.78s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_backend_svg.py::test_svg_incorrect_metadata[metadata7-TypeError-Invalid\n(no match in any of [<Module test_backend_svg.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svg_incorrect_metadata[metadata8-ValueError-Unknown",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.77s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_backend_svg.py::test_svg_incorrect_metadata[metadata8-ValueError-Unknown\n(no match in any of [<Module test_backend_svg.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_backend_svg.py",
+      "test_case": "test_svg_escape",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_backend_svg.py::test_svg_escape PASSED         [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    }
+  ]
+}

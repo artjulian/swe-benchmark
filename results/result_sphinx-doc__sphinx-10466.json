@@ -1,0 +1,61 @@
+{
+  "instance_id": "sphinx-doc__sphinx-10466",
+  "results": [
+    {
+      "test_file": "tests/test_build_gettext.py",
+      "test_case": "test_Catalog_duplicated_message",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.0.0b1, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_build_gettext.py::test_Catalog_duplicated_message PASSED      [100%]\n\n============================== 1 passed in 0.40s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_build_gettext.py",
+      "test_case": "test_build_gettext",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.0.0b1, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_build_gettext.py::test_build_gettext PASSED                   [100%]\n\n============================== 1 passed in 0.94s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_build_gettext.py",
+      "test_case": "test_gettext_index_entries",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.0.0b1, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_build_gettext.py::test_gettext_index_entries PASSED           [100%]\n\n============================== 1 passed in 0.77s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_build_gettext.py",
+      "test_case": "test_gettext_disable_index_entries",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.0.0b1, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_build_gettext.py::test_gettext_disable_index_entries PASSED   [100%]\n\n============================== 1 passed in 0.78s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_build_gettext.py",
+      "test_case": "test_gettext_template",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.0.0b1, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_build_gettext.py::test_gettext_template PASSED                [100%]\n\n============================== 1 passed in 0.77s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_build_gettext.py",
+      "test_case": "test_gettext_template_msgid_order_in_sphinxpot",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.0.0b1, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_build_gettext.py::test_gettext_template_msgid_order_in_sphinxpot PASSED [100%]\n\n============================== 1 passed in 0.59s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_build_gettext.py",
+      "test_case": "test_build_single_pot",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.0.0b1, docutils-0.18.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_build_gettext.py::test_build_single_pot PASSED                [100%]\n\n============================== 1 passed in 0.89s ===============================\n",
+      "stderr": ""
+    }
+  ]
+}

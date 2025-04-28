@@ -1,0 +1,21 @@
+{
+  "instance_id": "pydata__xarray-6938",
+  "results": [
+    {
+      "test_file": "xarray/tests/test_variable.py",
+      "test_case": "test_raise_no_warning_for_nan_in_binary_ops",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nxarray/tests/test_variable.py::test_raise_no_warning_for_nan_in_binary_ops PASSED [100%]\n\n============================== 1 passed in 0.50s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "xarray/tests/test_variable.py",
+      "test_case": "test_clip",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nxarray/tests/test_variable.py::test_clip PASSED                          [100%]\n\n============================== 1 passed in 0.48s ===============================\n",
+      "stderr": ""
+    }
+  ]
+}

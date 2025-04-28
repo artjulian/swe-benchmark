@@ -1,0 +1,589 @@
+{
+  "instance_id": "matplotlib__matplotlib-23476",
+  "results": [
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_unpickle_with_device_pixel_ratio",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_unpickle_with_device_pixel_ratio PASSED [100%]\n\n============================== 1 passed in 0.99s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_align_labels[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_align_labels[png] PASSED       [100%]\n\n============================== 1 passed in 1.25s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_align_labels_stray_axes",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_align_labels_stray_axes PASSED [100%]\n\n============================== 1 passed in 1.10s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_figure_label",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_figure_label PASSED            [100%]\n\n============================== 1 passed in 0.95s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_fignum_exists",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_fignum_exists PASSED           [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_clf_keyword",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_clf_keyword PASSED             [100%]\n\n============================== 1 passed in 0.94s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_figure[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_figure[png] PASSED             [100%]\n\n============================== 1 passed in 1.04s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_figure[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_figure[pdf] SKIPPED (Cannot\ncompare pdf files on this system)                                        [100%]\n\n============================== 1 skipped in 1.00s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_figure_legend[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_figure_legend[png] PASSED      [100%]\n\n============================== 1 passed in 1.15s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_figure_legend[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_figure_legend[pdf] SKIPPED     [100%]\n\n============================== 1 skipped in 0.92s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_gca",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_gca PASSED                     [100%]\n\n============================== 1 passed in 0.98s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_add_subplot_subclass",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_add_subplot_subclass PASSED    [100%]\n\n============================== 1 passed in 1.02s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_add_subplot_invalid",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_add_subplot_invalid PASSED     [100%]\n\n============================== 1 passed in 0.98s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_suptitle[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_suptitle[png] PASSED           [100%]\n\n============================== 1 passed in 1.08s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_suptitle[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_suptitle[pdf] SKIPPED (Cannot\ncompare pdf files on this system)                                        [100%]\n\n============================== 1 skipped in 0.91s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_suptitle_fontproperties",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_suptitle_fontproperties PASSED [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_alpha[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_alpha[png] PASSED              [100%]\n\n============================== 1 passed in 1.04s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_too_many_figures",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_too_many_figures PASSED        [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_iterability_axes_argument",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_iterability_axes_argument PASSED [100%]\n\n============================== 1 passed in 0.95s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_set_fig_size",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_set_fig_size PASSED            [100%]\n\n============================== 1 passed in 0.91s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_axes_remove",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_axes_remove PASSED             [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_figaspect",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_figaspect PASSED               [100%]\n\n============================== 1 passed in 0.91s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_autofmt_xdate[both]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_autofmt_xdate[both] PASSED     [100%]\n\n============================== 1 passed in 0.94s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_autofmt_xdate[major]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_autofmt_xdate[major] PASSED    [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_autofmt_xdate[minor]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_autofmt_xdate[minor] PASSED    [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_change_dpi",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_change_dpi PASSED              [100%]\n\n============================== 1 passed in 0.95s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_invalid_figure_size[1-nan]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_invalid_figure_size[1-nan] PASSED [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_invalid_figure_size[-1-1]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_invalid_figure_size[-1-1] PASSED [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_invalid_figure_size[inf-1]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_invalid_figure_size[inf-1] PASSED [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_invalid_figure_add_axes",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_invalid_figure_add_axes PASSED [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_subplots_shareax_loglabels",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_subplots_shareax_loglabels PASSED [100%]\n\n============================== 1 passed in 1.07s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_savefig",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_savefig PASSED                 [100%]\n\n============================== 1 passed in 1.07s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_savefig_warns",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_savefig_warns PASSED           [100%]\n\n============================== 1 passed in 1.12s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_savefig_backend",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_savefig_backend PASSED         [100%]\n\n============================== 1 passed in 1.01s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_savefig_pixel_ratio[Agg]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_savefig_pixel_ratio[Agg] PASSED [100%]\n\n============================== 1 passed in 1.03s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_savefig_pixel_ratio[Cairo]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_savefig_pixel_ratio[Cairo] SKIPPED>=1.11.0 or cairocffi is installed).) [100%]\n\n============================== 1 skipped in 0.99s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_figure_repr",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_figure_repr PASSED             [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_valid_layouts",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_valid_layouts PASSED           [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_invalid_layouts",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_invalid_layouts PASSED         [100%]\n\n============================== 1 passed in 0.97s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_add_artist[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_add_artist[png] <- lib/matplotlib/testing/decorators.py PASSED [100%]\n\n============================== 1 passed in 1.07s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_add_artist[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_add_artist[pdf] <- lib/matplotlib/testing/decorators.py SKIPPED [100%]\n\n============================== 1 skipped in 1.20s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_fspath[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_fspath[png] PASSED             [100%]\n\n============================== 1 passed in 0.99s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_fspath[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_fspath[pdf] PASSED             [100%]\n\n============================== 1 passed in 1.06s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_fspath[ps]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_fspath[ps] PASSED              [100%]\n\n============================== 1 passed in 1.06s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_fspath[eps]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_fspath[eps] PASSED             [100%]\n\n============================== 1 passed in 1.02s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_fspath[svg]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_fspath[svg] PASSED             [100%]\n\n============================== 1 passed in 0.98s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_tightbbox",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_tightbbox PASSED               [100%]\n\n============================== 1 passed in 0.97s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_axes_removal",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_axes_removal PASSED            [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_removed_axis",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_removed_axis PASSED            [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_figure_clear[clear]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_figure_clear[clear] PASSED     [100%]\n\n============================== 1 passed in 1.09s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_figure_clear[clf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_figure_clear[clf] PASSED       [100%]\n\n============================== 1 passed in 1.07s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_clf_not_redefined",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_clf_not_redefined PASSED       [100%]\n\n============================== 1 passed in 0.95s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_picking_does_not_stale",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_picking_does_not_stale PASSED  [100%]\n\n============================== 1 passed in 0.96s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_add_subplot_twotuple",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_add_subplot_twotuple PASSED    [100%]\n\n============================== 1 passed in 0.96s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_animated_with_canvas_change[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_animated_with_canvas_change[pdf] <- lib/matplotlib/testing/decorators.py SKIPPED [100%]\n\n============================== 1 skipped in 1.09s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_animated_with_canvas_change[eps]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_animated_with_canvas_change[eps] <- lib/matplotlib/testing/decorators.py SKIPPED [100%]\n\n============================== 1 skipped in 1.08s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_animated_with_canvas_change[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_animated_with_canvas_change[png] <- lib/matplotlib/testing/decorators.py PASSED [100%]\n\n============================== 1 passed in 1.07s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_reused_gridspec",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_reused_gridspec PASSED         [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_subfigure[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_subfigure[png] PASSED          [100%]\n\n============================== 1 passed in 1.25s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_subfigure_tightbbox",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_subfigure_tightbbox PASSED     [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_subfigure_dpi",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_subfigure_dpi PASSED           [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_subfigure_ss[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 1,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_subfigure_ss[png] FAILED       [100%]\n\n=================================== FAILURES ===================================\n____________________________ test_subfigure_ss[png] ____________________________\n\nargs = ()\nkwds = {'extension': 'png', 'request': <FixtureRequest for <Function test_subfigure_ss[png]>>}\n\n    @wraps(func)\n    def inner(*args, **kwds):\n        with self._recreate_cm():\n>           return func(*args, **kwds)\nE           matplotlib.testing.exceptions.ImageComparisonFailure: images not close (RMS 0.012):\nE           \tresult_images/test_figure/test_subfigure_ss.png\nE           \tresult_images/test_figure/test_subfigure_ss-expected.png\nE           \tresult_images/test_figure/test_subfigure_ss-failed-diff.png\n\n/usr/local/lib/python3.10/contextlib.py:79: ImageComparisonFailure\n------------------------------ Captured log setup ------------------------------\nWARNING  matplotlib.testing:__init__.py:38 Could not set locale to English/United States. Some date-related tests may fail.\n=========================== short test summary info ============================\nFAILED lib/matplotlib/tests/test_figure.py::test_subfigure_ss[png] - matplotlib.testing.exceptions.ImageComparisonFailure: images not close (RMS 0.012):\n\tresult_images/test_figure/test_subfigure_ss.png\n\tresult_images/test_figure/test_subfigure_ss-expected.png\n\tresult_images/test_figure/test_subfigure_ss-failed-diff.png\n============================== 1 failed in 1.22s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_subfigure_double[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_subfigure_double[png] PASSED   [100%]\n\n============================== 1 passed in 1.30s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_subfigure_spanning",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_subfigure_spanning PASSED      [100%]\n\n============================== 1 passed in 1.00s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_subfigure_ticks",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_subfigure_ticks PASSED         [100%]\n\n============================== 1 passed in 1.04s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_subfigure_scatter_size[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_subfigure_scatter_size[png] PASSED [100%]\n\n============================== 1 passed in 1.04s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_subfigure_pdf",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_subfigure_pdf PASSED           [100%]\n\n============================== 1 passed in 1.27s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_add_subplot_kwargs",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_add_subplot_kwargs PASSED      [100%]\n\n============================== 1 passed in 1.15s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_add_axes_kwargs",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_add_axes_kwargs PASSED         [100%]\n\n============================== 1 passed in 1.21s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_ginput",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_ginput PASSED                  [100%]\n\n============================== 1 passed in 1.22s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_waitforbuttonpress",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_waitforbuttonpress PASSED      [100%]\n\n============================== 1 passed in 1.26s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_kwargs_pass",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_kwargs_pass PASSED             [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_figure.py",
+      "test_case": "test_deepcopy",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_figure.py::test_deepcopy PASSED                [100%]\n\n============================== 1 passed in 1.11s ===============================\n",
+      "stderr": ""
+    }
+  ]
+}

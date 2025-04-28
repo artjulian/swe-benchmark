@@ -1,0 +1,13 @@
+{
+  "instance_id": "pylint-dev__pylint-4661",
+  "results": [
+    {
+      "test_file": "tests/lint/unittest_lint.py",
+      "test_case": "test_pylint_home",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 4,
+      "stdout": "",
+      "stderr": "ImportError while loading conftest '/app/repo/tests/conftest.py'.\ntests/conftest.py:8: in <module>\n    from pylint import checkers\npylint/checkers/__init__.py:49: in <module>\n    from pylint.checkers.base_checker import BaseChecker, BaseTokenChecker\npylint/checkers/base_checker.py:22: in <module>\n    from pylint.config import OptionsProviderMixIn\npylint/config/__init__.py:39: in <module>\n    import appdirs\nE   ModuleNotFoundError: No module named 'appdirs'\n"
+    }
+  ]
+}

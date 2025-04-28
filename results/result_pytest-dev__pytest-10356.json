@@ -1,0 +1,389 @@
+{
+  "instance_id": "pytest-dev__pytest-10356",
+  "results": [
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_mark_mro",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.34s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_mark_mro\n(no name '/app/repo/testing/test_mark.py::test_mark_mro' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_pytest_param_id_requires_string",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.36s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_pytest_param_id_requires_string\n(no name '/app/repo/testing/test_mark.py::test_pytest_param_id_requires_string' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_pytest_param_id_allows_none_or_string[None]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.69s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_pytest_param_id_allows_none_or_string[None]\n(no name '/app/repo/testing/test_mark.py::test_pytest_param_id_allows_none_or_string[None]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_pytest_param_id_allows_none_or_string[hello",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.37s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_pytest_param_id_allows_none_or_string[hello\n(no name '/app/repo/testing/test_mark.py::test_pytest_param_id_allows_none_or_string[hello' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_marked_class_run_twice",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.35s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_marked_class_run_twice\n(no name '/app/repo/testing/test_mark.py::test_marked_class_run_twice' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_ini_markers",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.35s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_ini_markers\n(no name '/app/repo/testing/test_mark.py::test_ini_markers' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_markers_option",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.37s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_markers_option\n(no name '/app/repo/testing/test_mark.py::test_markers_option' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_ini_markers_whitespace",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.34s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_ini_markers_whitespace\n(no name '/app/repo/testing/test_mark.py::test_ini_markers_whitespace' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_marker_without_description",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.33s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_marker_without_description\n(no name '/app/repo/testing/test_mark.py::test_marker_without_description' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_markers_option_with_plugin_in_current_dir",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.35s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_markers_option_with_plugin_in_current_dir\n(no name '/app/repo/testing/test_mark.py::test_markers_option_with_plugin_in_current_dir' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_mark_on_pseudo_function",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.33s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_mark_on_pseudo_function\n(no name '/app/repo/testing/test_mark.py::test_mark_on_pseudo_function' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_strict_prohibits_unregistered_markers[--strict-markers]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.33s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_strict_prohibits_unregistered_markers[--strict-markers]\n(no name '/app/repo/testing/test_mark.py::test_strict_prohibits_unregistered_markers[--strict-markers]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_strict_prohibits_unregistered_markers[--strict]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.35s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_strict_prohibits_unregistered_markers[--strict]\n(no name '/app/repo/testing/test_mark.py::test_strict_prohibits_unregistered_markers[--strict]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_mark_option[xyz-expected_passed0]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.36s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_mark_option[xyz-expected_passed0]\n(no name '/app/repo/testing/test_mark.py::test_mark_option[xyz-expected_passed0]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_mark_option[(((",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.37s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_mark_option[(((\n(no name '/app/repo/testing/test_mark.py::test_mark_option[(((' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_mark_option[not",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.34s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_mark_option[not\n(no name '/app/repo/testing/test_mark.py::test_mark_option[not' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_mark_option[xyz",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.35s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_mark_option[xyz\n(no name '/app/repo/testing/test_mark.py::test_mark_option[xyz' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_mark_option[xyz2-expected_passed4]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.33s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_mark_option[xyz2-expected_passed4]\n(no name '/app/repo/testing/test_mark.py::test_mark_option[xyz2-expected_passed4]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_mark_option_custom[interface-expected_passed0]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.34s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_mark_option_custom[interface-expected_passed0]\n(no name '/app/repo/testing/test_mark.py::test_mark_option_custom[interface-expected_passed0]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_mark_option_custom[not",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.36s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_mark_option_custom[not\n(no name '/app/repo/testing/test_mark.py::test_mark_option_custom[not' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_keyword_option_custom[interface-expected_passed0]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.34s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_keyword_option_custom[interface-expected_passed0]\n(no name '/app/repo/testing/test_mark.py::test_keyword_option_custom[interface-expected_passed0]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_keyword_option_custom[not",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.33s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_keyword_option_custom[not\n(no name '/app/repo/testing/test_mark.py::test_keyword_option_custom[not' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_keyword_option_custom[pass-expected_passed2]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.33s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_keyword_option_custom[pass-expected_passed2]\n(no name '/app/repo/testing/test_mark.py::test_keyword_option_custom[pass-expected_passed2]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_keyword_option_custom[1",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.35s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_keyword_option_custom[1\n(no name '/app/repo/testing/test_mark.py::test_keyword_option_custom[1' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_keyword_option_considers_mark",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.36s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_keyword_option_considers_mark\n(no name '/app/repo/testing/test_mark.py::test_keyword_option_considers_mark' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_keyword_option_parametrize[None-expected_passed0]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.37s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_keyword_option_parametrize[None-expected_passed0]\n(no name '/app/repo/testing/test_mark.py::test_keyword_option_parametrize[None-expected_passed0]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_keyword_option_parametrize[[1.3]-expected_passed1]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.35s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_keyword_option_parametrize[[1.3]-expected_passed1]\n(no name '/app/repo/testing/test_mark.py::test_keyword_option_parametrize[[1.3]-expected_passed1]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_keyword_option_parametrize[2-3-expected_passed2]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.33s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_keyword_option_parametrize[2-3-expected_passed2]\n(no name '/app/repo/testing/test_mark.py::test_keyword_option_parametrize[2-3-expected_passed2]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_parametrize_with_module",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.36s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_parametrize_with_module\n(no name '/app/repo/testing/test_mark.py::test_parametrize_with_module' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_keyword_option_wrong_arguments[foo",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.34s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_keyword_option_wrong_arguments[foo\n(no name '/app/repo/testing/test_mark.py::test_keyword_option_wrong_arguments[foo' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_keyword_option_wrong_arguments[(foo-at",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.36s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_keyword_option_wrong_arguments[(foo-at\n(no name '/app/repo/testing/test_mark.py::test_keyword_option_wrong_arguments[(foo-at' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_keyword_option_wrong_arguments[or",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.34s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_keyword_option_wrong_arguments[or\n(no name '/app/repo/testing/test_mark.py::test_keyword_option_wrong_arguments[or' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_keyword_option_wrong_arguments[not",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.37s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_keyword_option_wrong_arguments[not\n(no name '/app/repo/testing/test_mark.py::test_keyword_option_wrong_arguments[not' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_parametrized_collected_from_command_line",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.35s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_parametrized_collected_from_command_line\n(no name '/app/repo/testing/test_mark.py::test_parametrized_collected_from_command_line' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_parametrized_collect_with_wrong_args",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.34s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_parametrized_collect_with_wrong_args\n(no name '/app/repo/testing/test_mark.py::test_parametrized_collect_with_wrong_args' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_parametrized_with_kwargs",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.39s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_parametrized_with_kwargs\n(no name '/app/repo/testing/test_mark.py::test_parametrized_with_kwargs' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_parametrize_iterator",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.38s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_parametrize_iterator\n(no name '/app/repo/testing/test_mark.py::test_parametrize_iterator' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_parameterset_for_parametrize_marks[None]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.35s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_parameterset_for_parametrize_marks[None]\n(no name '/app/repo/testing/test_mark.py::test_parameterset_for_parametrize_marks[None]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_parameterset_for_parametrize_marks[]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.35s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_parameterset_for_parametrize_marks[]\n(no name '/app/repo/testing/test_mark.py::test_parameterset_for_parametrize_marks[]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_parameterset_for_parametrize_marks[skip]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.34s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_parameterset_for_parametrize_marks[skip]\n(no name '/app/repo/testing/test_mark.py::test_parameterset_for_parametrize_marks[skip]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_parameterset_for_parametrize_marks[xfail]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.33s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_parameterset_for_parametrize_marks[xfail]\n(no name '/app/repo/testing/test_mark.py::test_parameterset_for_parametrize_marks[xfail]' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_parameterset_for_fail_at_collect",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.37s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_parameterset_for_fail_at_collect\n(no name '/app/repo/testing/test_mark.py::test_parameterset_for_fail_at_collect' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_parameterset_for_parametrize_bad_markname",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.34s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_parameterset_for_parametrize_bad_markname\n(no name '/app/repo/testing/test_mark.py::test_parameterset_for_parametrize_bad_markname' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_mark_expressions_no_smear",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.34s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_mark_expressions_no_smear\n(no name '/app/repo/testing/test_mark.py::test_mark_expressions_no_smear' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_addmarker_order",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.35s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_addmarker_order\n(no name '/app/repo/testing/test_mark.py::test_addmarker_order' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_markers_from_parametrize",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.34s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_markers_from_parametrize\n(no name '/app/repo/testing/test_mark.py::test_markers_from_parametrize' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_marker_expr_eval_failure_handling[NOT",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.37s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_marker_expr_eval_failure_handling[NOT\n(no name '/app/repo/testing/test_mark.py::test_marker_expr_eval_failure_handling[NOT' in any of [<Module testing/test_mark.py>])\n\n"
+    },
+    {
+      "test_file": "testing/test_mark.py",
+      "test_case": "test_marker_expr_eval_failure_handling[bogus=]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev312+g3c1534944.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items / 1 error\n\n==================================== ERRORS ====================================\n____________________ ERROR collecting testing/test_mark.py _____________________\n'filterwarnings' not found in `markers` configuration option\n=========================== short test summary info ============================\nERROR testing/test_mark.py\n=============================== 1 error in 0.37s ===============================\n",
+      "stderr": "ERROR: not found: /app/repo/testing/test_mark.py::test_marker_expr_eval_failure_handling[bogus=]\n(no name '/app/repo/testing/test_mark.py::test_marker_expr_eval_failure_handling[bogus=]' in any of [<Module testing/test_mark.py>])\n\n"
+    }
+  ]
+}

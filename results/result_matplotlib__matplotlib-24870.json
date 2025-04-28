@@ -1,0 +1,533 @@
+{
+  "instance_id": "matplotlib__matplotlib-24870",
+  "results": [
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_bool_autolevel",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_bool_autolevel PASSED         [100%]\n\n============================== 1 passed in 0.85s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_shape_1d_valid",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_shape_1d_valid PASSED [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_shape_2d_valid",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_shape_2d_valid PASSED [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_shape_error[args0-Length",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.79s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_contour.py::test_contour_shape_error[args0-Length\n(no match in any of [<Module test_contour.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_shape_error[args1-Length",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.79s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_contour.py::test_contour_shape_error[args1-Length\n(no match in any of [<Module test_contour.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_shape_error[args2-Number",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.79s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_contour.py::test_contour_shape_error[args2-Number\n(no match in any of [<Module test_contour.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_shape_error[args3-Number",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.79s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_contour.py::test_contour_shape_error[args3-Number\n(no match in any of [<Module test_contour.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_shape_error[args4-Shapes",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.78s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_contour.py::test_contour_shape_error[args4-Shapes\n(no match in any of [<Module test_contour.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_shape_error[args5-Shapes",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.80s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_contour.py::test_contour_shape_error[args5-Shapes\n(no match in any of [<Module test_contour.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_shape_error[args6-Inputs",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.79s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_contour.py::test_contour_shape_error[args6-Inputs\n(no match in any of [<Module test_contour.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_shape_error[args7-Input",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.81s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_contour.py::test_contour_shape_error[args7-Input\n(no match in any of [<Module test_contour.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_shape_error[args8-Input",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.80s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_contour.py::test_contour_shape_error[args8-Input\n(no match in any of [<Module test_contour.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_shape_error[args9-Input",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.78s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/lib/matplotlib/tests/test_contour.py::test_contour_shape_error[args9-Input\n(no match in any of [<Module test_contour.py>])\n\n"
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_empty_levels",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_empty_levels PASSED   [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_Nlevels",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_Nlevels PASSED        [100%]\n\n============================== 1 passed in 0.81s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_badlevel_fmt",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_badlevel_fmt PASSED   [100%]\n\n============================== 1 passed in 0.81s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_uniform_z",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_uniform_z PASSED      [100%]\n\n============================== 1 passed in 0.84s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_manual_labels[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_manual_labels[png] PASSED [100%]\n\n============================== 1 passed in 1.03s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_manual_labels[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_manual_labels[pdf] SKIPPED [100%]\n\n============================== 1 skipped in 0.79s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_given_colors_levels_and_extends[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_given_colors_levels_and_extends[png] PASSED [100%]\n\n============================== 1 passed in 1.19s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_datetime_axis[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_datetime_axis[png] PASSED [100%]\n\n============================== 1 passed in 1.07s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_labels[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_labels[png] PASSED            [100%]\n\n============================== 1 passed in 0.98s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_corner_mask[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_corner_mask[png] PASSED       [100%]\n\n============================== 1 passed in 1.06s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contourf_decreasing_levels",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contourf_decreasing_levels PASSED [100%]\n\n============================== 1 passed in 0.79s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contourf_symmetric_locator",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contourf_symmetric_locator PASSED [100%]\n\n============================== 1 passed in 0.79s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_circular_contour_warning",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_circular_contour_warning PASSED [100%]\n\n============================== 1 passed in 0.81s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_clabel_zorder[True-123-1234]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_clabel_zorder[True-123-1234] PASSED [100%]\n\n============================== 1 passed in 0.81s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_clabel_zorder[False-123-1234]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_clabel_zorder[False-123-1234] PASSED [100%]\n\n============================== 1 passed in 0.81s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_clabel_zorder[True-123-None]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_clabel_zorder[True-123-None] PASSED [100%]\n\n============================== 1 passed in 0.84s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_clabel_zorder[False-123-None]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_clabel_zorder[False-123-None] PASSED [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contourf_log_extension[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contourf_log_extension[png] PASSED [100%]\n\n============================== 1 passed in 1.07s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_addlines[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 1,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_addlines[png] FAILED  [100%]\n\n=================================== FAILURES ===================================\n__________________________ test_contour_addlines[png] __________________________\n\nargs = ()\nkwds = {'extension': 'png', 'request': <FixtureRequest for <Function test_contour_addlines[png]>>}\n\n    @wraps(func)\n    def inner(*args, **kwds):\n        with self._recreate_cm():\n>           return func(*args, **kwds)\nE           matplotlib.testing.exceptions.ImageComparisonFailure: images not close (RMS 0.146):\nE           \tresult_images/test_contour/contour_addlines.png\nE           \tresult_images/test_contour/contour_addlines-expected.png\nE           \tresult_images/test_contour/contour_addlines-failed-diff.png\n\n/usr/local/lib/python3.10/contextlib.py:79: ImageComparisonFailure\n------------------------------ Captured log setup ------------------------------\nWARNING  matplotlib.testing:__init__.py:38 Could not set locale to English/United States. Some date-related tests may fail.\n=========================== short test summary info ============================\nFAILED lib/matplotlib/tests/test_contour.py::test_contour_addlines[png] - matplotlib.testing.exceptions.ImageComparisonFailure: images not close (RMS 0.146):\n\tresult_images/test_contour/contour_addlines.png\n\tresult_images/test_contour/contour_addlines-expected.png\n\tresult_images/test_contour/contour_addlines-failed-diff.png\n============================== 1 failed in 1.04s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_uneven[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_uneven[png] PASSED    [100%]\n\n============================== 1 passed in 1.02s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_linewidth[1.23-None-None-1.23]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_linewidth[1.23-None-None-1.23] PASSED [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_linewidth[1.23-4.24-None-4.24]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_linewidth[1.23-4.24-None-4.24] PASSED [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_linewidth[1.23-4.24-5.02-5.02]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_linewidth[1.23-4.24-5.02-5.02] PASSED [100%]\n\n============================== 1 passed in 0.81s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_label_nonagg",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_label_nonagg PASSED           [100%]\n\n============================== 1 passed in 1.04s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_closed_line_loop[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_closed_line_loop[png] PASSED [100%]\n\n============================== 1 passed in 0.96s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_quadcontourset_reuse",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_quadcontourset_reuse PASSED   [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_manual[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_manual[png] PASSED    [100%]\n\n============================== 1 passed in 0.98s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_line_start_on_corner_edge[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_line_start_on_corner_edge[png] PASSED [100%]\n\n============================== 1 passed in 1.01s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_find_nearest_contour",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_find_nearest_contour PASSED   [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_find_nearest_contour_no_filled",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_find_nearest_contour_no_filled PASSED [100%]\n\n============================== 1 passed in 0.81s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_autolabel_beyond_powerlimits",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_autolabel_beyond_powerlimits PASSED [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contourf_legend_elements",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contourf_legend_elements PASSED [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_legend_elements",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_legend_elements PASSED [100%]\n\n============================== 1 passed in 0.81s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_algorithm_name[mpl2005-Mpl2005ContourGenerator]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_algorithm_name[mpl2005-Mpl2005ContourGenerator] PASSED [100%]\n\n============================== 1 passed in 0.79s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_algorithm_name[mpl2014-Mpl2014ContourGenerator]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_algorithm_name[mpl2014-Mpl2014ContourGenerator] PASSED [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_algorithm_name[serial-SerialContourGenerator]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_algorithm_name[serial-SerialContourGenerator] PASSED [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_algorithm_name[threaded-ThreadedContourGenerator]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_algorithm_name[threaded-ThreadedContourGenerator] PASSED [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_algorithm_name[invalid-None]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_algorithm_name[invalid-None] PASSED [100%]\n\n============================== 1 passed in 0.79s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_algorithm_supports_corner_mask[mpl2005]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_algorithm_supports_corner_mask[mpl2005] PASSED [100%]\n\n============================== 1 passed in 0.82s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_algorithm_supports_corner_mask[mpl2014]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_algorithm_supports_corner_mask[mpl2014] PASSED [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_algorithm_supports_corner_mask[serial]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_algorithm_supports_corner_mask[serial] PASSED [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_algorithm_supports_corner_mask[threaded]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_algorithm_supports_corner_mask[threaded] PASSED [100%]\n\n============================== 1 passed in 0.80s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_all_algorithms[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_all_algorithms[png] PASSED    [100%]\n\n============================== 1 passed in 1.07s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_subfigure_clabel",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_subfigure_clabel PASSED       [100%]\n\n============================== 1 passed in 0.83s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_linestyles[solid]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_linestyles[solid] PASSED      [100%]\n\n============================== 1 passed in 0.82s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_linestyles[dashed]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_linestyles[dashed] PASSED     [100%]\n\n============================== 1 passed in 0.84s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_linestyles[dashdot]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_linestyles[dashdot] PASSED    [100%]\n\n============================== 1 passed in 0.83s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_linestyles[dotted]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_linestyles[dotted] PASSED     [100%]\n\n============================== 1 passed in 0.83s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_negative_linestyles[solid]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_negative_linestyles[solid] PASSED [100%]\n\n============================== 1 passed in 0.84s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_negative_linestyles[dashed]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_negative_linestyles[dashed] PASSED [100%]\n\n============================== 1 passed in 0.83s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_negative_linestyles[dashdot]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_negative_linestyles[dashdot] PASSED [100%]\n\n============================== 1 passed in 0.84s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_negative_linestyles[dotted]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_negative_linestyles[dotted] PASSED [100%]\n\n============================== 1 passed in 0.84s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_contour.py",
+      "test_case": "test_contour_remove",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_contour.py::test_contour_remove PASSED         [100%]\n\n============================== 1 passed in 0.82s ===============================\n",
+      "stderr": ""
+    }
+  ]
+}

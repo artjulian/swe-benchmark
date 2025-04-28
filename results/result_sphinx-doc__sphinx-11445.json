@@ -1,0 +1,85 @@
+{
+  "instance_id": "sphinx-doc__sphinx-11445",
+  "results": [
+    {
+      "test_file": "tests/test_util_rst.py",
+      "test_case": "test_prepend_prolog_with_roles_in_sections_with_newline",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.1.0+/71db08c05, docutils-0.20.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_util_rst.py::test_prepend_prolog_with_roles_in_sections_with_newline PASSED [100%]\n\n============================== 1 passed in 0.59s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_util_rst.py",
+      "test_case": "test_prepend_prolog_with_roles_in_sections_without_newline",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.1.0+/71db08c05, docutils-0.20.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_util_rst.py::test_prepend_prolog_with_roles_in_sections_without_newline PASSED [100%]\n\n============================== 1 passed in 0.59s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_util_rst.py",
+      "test_case": "test_escape",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.1.0+/71db08c05, docutils-0.20.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_util_rst.py::test_escape PASSED                               [100%]\n\n============================== 1 passed in 0.36s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_util_rst.py",
+      "test_case": "test_append_epilog",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.1.0+/71db08c05, docutils-0.20.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_util_rst.py::test_append_epilog PASSED                        [100%]\n\n============================== 1 passed in 0.58s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_util_rst.py",
+      "test_case": "test_prepend_prolog",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.1.0+/71db08c05, docutils-0.20.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_util_rst.py::test_prepend_prolog PASSED                       [100%]\n\n============================== 1 passed in 0.58s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_util_rst.py",
+      "test_case": "test_prepend_prolog_with_CR",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.1.0+/71db08c05, docutils-0.20.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_util_rst.py::test_prepend_prolog_with_CR PASSED               [100%]\n\n============================== 1 passed in 0.61s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_util_rst.py",
+      "test_case": "test_prepend_prolog_without_CR",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.1.0+/71db08c05, docutils-0.20.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_util_rst.py::test_prepend_prolog_without_CR PASSED            [100%]\n\n============================== 1 passed in 0.58s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_util_rst.py",
+      "test_case": "test_prepend_prolog_with_roles_in_sections",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.1.0+/71db08c05, docutils-0.20.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_util_rst.py::test_prepend_prolog_with_roles_in_sections PASSED [100%]\n\n============================== 1 passed in 0.58s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_util_rst.py",
+      "test_case": "test_textwidth",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.1.0+/71db08c05, docutils-0.20.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_util_rst.py::test_textwidth PASSED                            [100%]\n\n============================== 1 passed in 0.37s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_util_rst.py",
+      "test_case": "test_heading",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-7.1.0+/71db08c05, docutils-0.20.1\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_util_rst.py::test_heading PASSED                              [100%]\n\n============================== 1 passed in 0.37s ===============================\n",
+      "stderr": ""
+    }
+  ]
+}

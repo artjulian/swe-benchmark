@@ -1,0 +1,85 @@
+{
+  "instance_id": "pylint-dev__pylint-4551",
+  "results": [
+    {
+      "test_file": "tests/unittest_pyreverse_writer.py",
+      "test_case": "test_dot_files[packages_No_Name.dot]",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/unittest_pyreverse_writer.py::test_dot_files[packages_No_Name.dot] PASSED [100%]\n\n============================== 1 passed in 0.40s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/unittest_pyreverse_writer.py",
+      "test_case": "test_dot_files[classes_No_Name.dot]",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/unittest_pyreverse_writer.py::test_dot_files[classes_No_Name.dot] PASSED [100%]\n\n============================== 1 passed in 0.40s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/unittest_pyreverse_writer.py",
+      "test_case": "test_get_visibility[names0-special]",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/unittest_pyreverse_writer.py::test_get_visibility[names0-special] PASSED [100%]\n\n============================== 1 passed in 0.42s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/unittest_pyreverse_writer.py",
+      "test_case": "test_get_visibility[names1-private]",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/unittest_pyreverse_writer.py::test_get_visibility[names1-private] PASSED [100%]\n\n============================== 1 passed in 0.45s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/unittest_pyreverse_writer.py",
+      "test_case": "test_get_visibility[names2-public]",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/unittest_pyreverse_writer.py::test_get_visibility[names2-public] PASSED [100%]\n\n============================== 1 passed in 0.39s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/unittest_pyreverse_writer.py",
+      "test_case": "test_get_visibility[names3-protected]",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/unittest_pyreverse_writer.py::test_get_visibility[names3-protected] PASSED [100%]\n\n============================== 1 passed in 0.40s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/unittest_pyreverse_writer.py",
+      "test_case": "test_get_annotation_annassign[a:",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.38s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/tests/unittest_pyreverse_writer.py::test_get_annotation_annassign[a:\n(no match in any of [<Module unittest_pyreverse_writer.py>])\n\n"
+    },
+    {
+      "test_file": "tests/unittest_pyreverse_writer.py",
+      "test_case": "test_get_annotation_assignattr[def",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 4,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.38s =============================\n",
+      "stderr": "ERROR: not found: /app/repo/tests/unittest_pyreverse_writer.py::test_get_annotation_assignattr[def\n(no match in any of [<Module unittest_pyreverse_writer.py>])\n\n"
+    },
+    {
+      "test_file": "tests/unittest_pyreverse_writer.py",
+      "test_case": "test_infer_node_1",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/unittest_pyreverse_writer.py::test_infer_node_1 PASSED             [100%]\n\n============================== 1 passed in 0.40s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/unittest_pyreverse_writer.py",
+      "test_case": "test_infer_node_2",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/unittest_pyreverse_writer.py::test_infer_node_2 PASSED             [100%]\n\n============================== 1 passed in 0.39s ===============================\n",
+      "stderr": ""
+    }
+  ]
+}

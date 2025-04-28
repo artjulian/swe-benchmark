@@ -1,0 +1,133 @@
+{
+  "instance_id": "pytest-dev__pytest-10051",
+  "results": [
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_clear_for_call_stage",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_clear_for_call_stage PASSED        [100%]\n\n============================== 1 passed in 0.34s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_change_level",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_change_level PASSED                [100%]\n\n============================== 1 passed in 0.34s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_with_statement",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_with_statement PASSED              [100%]\n\n============================== 1 passed in 0.35s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_log_access",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_log_access PASSED                  [100%]\n\n============================== 1 passed in 0.34s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_messages",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_messages PASSED                    [100%]\n\n============================== 1 passed in 0.36s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_record_tuples",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_record_tuples PASSED               [100%]\n\n============================== 1 passed in 0.33s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_unicode",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_unicode PASSED                     [100%]\n\n============================== 1 passed in 0.34s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_clear",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_clear PASSED                       [100%]\n\n============================== 1 passed in 0.33s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_caplog_captures_for_all_stages",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_caplog_captures_for_all_stages PASSED [100%]\n\n============================== 1 passed in 0.34s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_fixture_help",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_fixture_help SKIPPED (need --run-slow option to run) [100%]\n\n============================== 1 skipped in 0.36s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_change_level_undo",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_change_level_undo SKIPPED (need --run-slow option to run) [100%]\n\n============================== 1 skipped in 0.37s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_change_level_undos_handler_level",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_change_level_undos_handler_level SKIPPED (need --run-slow option to run) [100%]\n\n============================== 1 skipped in 0.33s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_ini_controls_global_log_level",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_ini_controls_global_log_level SKIPPED (need --run-slow option to run) [100%]\n\n============================== 1 skipped in 0.34s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_caplog_can_override_global_log_level",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_caplog_can_override_global_log_level SKIPPED (need --run-slow option to run) [100%]\n\n============================== 1 skipped in 0.35s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_caplog_captures_despite_exception",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_caplog_captures_despite_exception SKIPPED (need --run-slow option to run) [100%]\n\n============================== 1 skipped in 0.34s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "testing/logging/test_fixture.py",
+      "test_case": "test_log_report_captures_according_to_config_option_upon_failure",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-7.2.0.dev157+gaa55975c7.d20250426, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo, configfile: pyproject.toml\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntesting/logging/test_fixture.py::test_log_report_captures_according_to_config_option_upon_failure SKIPPED (need --run-slow option to run) [100%]\n\n============================== 1 skipped in 0.33s ==============================\n",
+      "stderr": ""
+    }
+  ]
+}

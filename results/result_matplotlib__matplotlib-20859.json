@@ -1,0 +1,573 @@
+{
+  "instance_id": "matplotlib__matplotlib-20859",
+  "results": [
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_subfigure_legend",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_subfigure_legend PASSED        [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_ordereddict",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_ordereddict PASSED      [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_auto1[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_auto1[png] PASSED       [100%]\n\n============================== 1 passed in 1.06s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_auto1[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_auto1[pdf] SKIPPED      [100%]\n\n============================== 1 skipped in 0.92s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_auto2[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_auto2[png] PASSED       [100%]\n\n============================== 1 passed in 1.13s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_auto2[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_auto2[pdf] SKIPPED      [100%]\n\n============================== 1 skipped in 0.94s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_auto3[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_auto3[png] PASSED       [100%]\n\n============================== 1 passed in 1.04s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_auto3[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_auto3[pdf] SKIPPED      [100%]\n\n============================== 1 skipped in 0.91s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_various_labels[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_various_labels[png] PASSED     [100%]\n\n============================== 1 passed in 1.04s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_various_labels[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_various_labels[pdf] SKIPPED    [100%]\n\n============================== 1 skipped in 0.90s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_labels_first[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_labels_first[png] PASSED       [100%]\n\n============================== 1 passed in 1.03s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_multiple_keys[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_multiple_keys[png] PASSED      [100%]\n\n============================== 1 passed in 1.07s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_alpha_rgba[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_alpha_rgba[png] PASSED         [100%]\n\n============================== 1 passed in 1.01s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_alpha_rcparam[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_alpha_rcparam[png] PASSED      [100%]\n\n============================== 1 passed in 0.96s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_fancy[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_fancy[png] PASSED              [100%]\n\n============================== 1 passed in 1.01s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_fancy[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_fancy[pdf] SKIPPED (Cannot\ncompare pdf files on this system)                                        [100%]\n\n============================== 1 skipped in 0.93s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_framealpha[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_framealpha[png] PASSED         [100%]\n\n============================== 1 passed in 0.99s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_framealpha[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_framealpha[pdf] SKIPPED        [100%]\n\n============================== 1 skipped in 0.92s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_rc[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_rc[png] PASSED                 [100%]\n\n============================== 1 passed in 1.10s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_rc[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_rc[pdf] SKIPPED (Cannot\ncompare pdf files on this system)                                        [100%]\n\n============================== 1 skipped in 0.93s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_expand[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_expand[png] PASSED      [100%]\n\n============================== 1 passed in 1.06s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_expand[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_expand[pdf] SKIPPED     [100%]\n\n============================== 1 skipped in 0.88s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_hatching[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_hatching[png] PASSED           [100%]\n\n============================== 1 passed in 1.05s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_hatching[pdf]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_hatching[pdf] SKIPPED (Cannot\ncompare pdf files on this system)                                        [100%]\n\n============================== 1 skipped in 0.93s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_remove",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_remove PASSED           [100%]\n\n============================== 1 passed in 0.94s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_stackplot[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_stackplot[png] PASSED   [100%]\n\n============================== 1 passed in 1.06s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_cross_figure_patch_legend",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_cross_figure_patch_legend PASSED [100%]\n\n============================== 1 passed in 0.91s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_nanscatter",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_nanscatter PASSED              [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_repeatcheckok",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_repeatcheckok PASSED    [100%]\n\n============================== 1 passed in 0.95s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_not_covering_scatter[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_not_covering_scatter[png] PASSED [100%]\n\n============================== 1 passed in 1.08s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_not_covering_scatter_transform[png]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_not_covering_scatter_transform[png] PASSED [100%]\n\n============================== 1 passed in 1.06s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_linecollection_scaled_dashes",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_linecollection_scaled_dashes PASSED [100%]\n\n============================== 1 passed in 0.95s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_handler_numpoints",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_handler_numpoints PASSED       [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_empty_bar_chart_with_legend",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_empty_bar_chart_with_legend PASSED [100%]\n\n============================== 1 passed in 0.90s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_shadow_framealpha",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_shadow_framealpha PASSED       [100%]\n\n============================== 1 passed in 0.91s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_title_empty",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_title_empty PASSED      [100%]\n\n============================== 1 passed in 0.90s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_proper_window_extent",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_proper_window_extent PASSED [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_window_extent_cached_renderer",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_window_extent_cached_renderer PASSED [100%]\n\n============================== 1 passed in 0.94s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_title_fontprop_fontsize",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_title_fontprop_fontsize PASSED [100%]\n\n============================== 1 passed in 0.94s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_single[red]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_single[red] PASSED [100%]\n\n============================== 1 passed in 0.90s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_single[none]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_single[none] PASSED [100%]\n\n============================== 1 passed in 0.91s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_single[color2]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_single[color2] PASSED [100%]\n\n============================== 1 passed in 0.94s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_list",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_list PASSED  [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_linecolor",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_linecolor PASSED [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_markeredgecolor",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_markeredgecolor PASSED [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_markerfacecolor",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_markerfacecolor PASSED [100%]\n\n============================== 1 passed in 0.94s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_rcparam_single[red]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_rcparam_single[red] PASSED [100%]\n\n============================== 1 passed in 0.91s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_rcparam_single[none]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_rcparam_single[none] PASSED [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_rcparam_single[color2]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_rcparam_single[color2] PASSED [100%]\n\n============================== 1 passed in 0.95s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_rcparam_linecolor",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_rcparam_linecolor PASSED [100%]\n\n============================== 1 passed in 0.96s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_rcparam_markeredgecolor",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_rcparam_markeredgecolor PASSED [100%]\n\n============================== 1 passed in 0.91s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_rcparam_markeredgecolor_short",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_rcparam_markeredgecolor_short PASSED [100%]\n\n============================== 1 passed in 0.90s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_rcparam_markerfacecolor",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_rcparam_markerfacecolor PASSED [100%]\n\n============================== 1 passed in 0.91s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_labelcolor_rcparam_markerfacecolor_short",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_labelcolor_rcparam_markerfacecolor_short PASSED [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_get_set_draggable",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_get_set_draggable PASSED       [100%]\n\n============================== 1 passed in 0.89s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_alpha_handles",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_alpha_handles PASSED           [100%]\n\n============================== 1 passed in 0.90s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_warn_big_data_best_loc",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 1,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_warn_big_data_best_loc FAILED  [100%]\n\n=================================== FAILURES ===================================\n_________________________ test_warn_big_data_best_loc __________________________\n\n    def test_warn_big_data_best_loc():\n        fig, ax = plt.subplots()\n        fig.canvas.draw()  # So that we can call draw_artist later.\n        for idx in range(1000):\n            ax.plot(np.arange(5000), label=idx)\n        with rc_context({'legend.loc': 'best'}):\n            legend = ax.legend()\n>       with pytest.warns(UserWarning) as records:\nE       Failed: DID NOT WARN. No warnings of type (<class 'UserWarning'>,) were emitted.\nE        Emitted warnings: [].\n\nlib/matplotlib/tests/test_legend.py:768: Failed\n------------------------------ Captured log setup ------------------------------\nWARNING  matplotlib.testing:__init__.py:37 Could not set locale to English/United States. Some date-related tests may fail.\n=========================== short test summary info ============================\nFAILED lib/matplotlib/tests/test_legend.py::test_warn_big_data_best_loc - Failed: DID NOT WARN. No warnings of type (<class 'UserWarning'>,) were emitted.\n Emitted warnings: [].\n============================== 1 failed in 3.85s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_no_warn_big_data_when_loc_specified",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_no_warn_big_data_when_loc_specified PASSED [100%]\n\n============================== 1 passed in 1.20s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_plot_multiple_input_multiple_label[label_array0]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_plot_multiple_input_multiple_label[label_array0] PASSED [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_plot_multiple_input_multiple_label[label_array1]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_plot_multiple_input_multiple_label[label_array1] PASSED [100%]\n\n============================== 1 passed in 0.94s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_plot_multiple_input_multiple_label[label_array2]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_plot_multiple_input_multiple_label[label_array2] PASSED [100%]\n\n============================== 1 passed in 0.89s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_plot_multiple_input_single_label[one]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_plot_multiple_input_single_label[one] PASSED [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_plot_multiple_input_single_label[1]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_plot_multiple_input_single_label[1] PASSED [100%]\n\n============================== 1 passed in 0.93s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_plot_multiple_input_single_label[int]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_plot_multiple_input_single_label[int] PASSED [100%]\n\n============================== 1 passed in 0.90s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_plot_single_input_multiple_label[label_array0]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_plot_single_input_multiple_label[label_array0] PASSED [100%]\n\n============================== 1 passed in 0.89s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_plot_single_input_multiple_label[label_array1]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_plot_single_input_multiple_label[label_array1] PASSED [100%]\n\n============================== 1 passed in 0.86s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_plot_single_input_multiple_label[label_array2]",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_plot_single_input_multiple_label[label_array2] PASSED [100%]\n\n============================== 1 passed in 0.92s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_plot_multiple_label_incorrect_length_exception",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_plot_multiple_label_incorrect_length_exception PASSED [100%]\n\n============================== 1 passed in 0.87s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_face_edgecolor",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_face_edgecolor PASSED   [100%]\n\n============================== 1 passed in 0.86s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_legend_text_axes",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_legend_text_axes PASSED        [100%]\n\n============================== 1 passed in 0.87s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "lib/matplotlib/tests/test_legend.py",
+      "test_case": "test_handlerline2d",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nrootdir: /app/repo\nconfigfile: pytest.ini\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\nlib/matplotlib/tests/test_legend.py::test_handlerline2d PASSED           [100%]\n\n============================== 1 passed in 0.88s ===============================\n",
+      "stderr": ""
+    }
+  ]
+}

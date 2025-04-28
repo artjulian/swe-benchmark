@@ -1,0 +1,13 @@
+{
+  "instance_id": "sympy__sympy-21596",
+  "results": [
+    {
+      "test_file": "sympy/sets/handlers/intersection.py",
+      "test_case": "None",
+      "test_type": "None",
+      "exit_code": 5,
+      "stdout": "",
+      "stderr": "Could not find target file sympy/sets/handlers/intersection.py in repo sympy/sympy"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "instance_id": "scikit-learn__scikit-learn-25973",
+  "results": [
+    {
+      "test_file": "sklearn/feature_selection/_sequential.py",
+      "test_case": "None",
+      "test_type": "None",
+      "exit_code": 5,
+      "stdout": "",
+      "stderr": "Could not find target file sklearn/feature_selection/_sequential.py in repo scikit-learn/scikit-learn"
+    }
+  ]
+}

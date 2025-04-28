@@ -1,0 +1,13 @@
+{
+  "instance_id": "matplotlib__matplotlib-25332",
+  "results": [
+    {
+      "test_file": "lib/matplotlib/cbook.py",
+      "test_case": "None",
+      "test_type": "None",
+      "exit_code": 5,
+      "stdout": "",
+      "stderr": "Could not find target file lib/matplotlib/cbook.py in repo matplotlib/matplotlib"
+    }
+  ]
+}

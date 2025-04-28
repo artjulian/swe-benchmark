@@ -1,0 +1,85 @@
+{
+  "instance_id": "sphinx-doc__sphinx-10673",
+  "results": [
+    {
+      "test_file": "tests/test_environment_toctree.py",
+      "test_case": "test_toctree_index",
+      "test_type": "FAIL_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.2.0+/f35d2a6cc, docutils-0.19\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_environment_toctree.py::test_toctree_index PASSED             [100%]\n\n============================== 1 passed in 0.61s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_environment_toctree.py",
+      "test_case": "test_process_doc",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.2.0+/f35d2a6cc, docutils-0.19\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_environment_toctree.py::test_process_doc PASSED               [100%]\n\n============================== 1 passed in 0.61s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_environment_toctree.py",
+      "test_case": "test_glob",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.2.0+/f35d2a6cc, docutils-0.19\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_environment_toctree.py::test_glob PASSED                      [100%]\n\n============================== 1 passed in 0.61s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_environment_toctree.py",
+      "test_case": "test_get_toc_for",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.2.0+/f35d2a6cc, docutils-0.19\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_environment_toctree.py::test_get_toc_for PASSED               [100%]\n\n============================== 1 passed in 0.60s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_environment_toctree.py",
+      "test_case": "test_get_toc_for_only",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.2.0+/f35d2a6cc, docutils-0.19\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_environment_toctree.py::test_get_toc_for_only PASSED          [100%]\n\n============================== 1 passed in 0.61s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_environment_toctree.py",
+      "test_case": "test_get_toc_for_tocdepth",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.2.0+/f35d2a6cc, docutils-0.19\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_environment_toctree.py::test_get_toc_for_tocdepth PASSED      [100%]\n\n============================== 1 passed in 0.63s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_environment_toctree.py",
+      "test_case": "test_get_toctree_for",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.2.0+/f35d2a6cc, docutils-0.19\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_environment_toctree.py::test_get_toctree_for PASSED           [100%]\n\n============================== 1 passed in 0.61s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_environment_toctree.py",
+      "test_case": "test_get_toctree_for_collapse",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.2.0+/f35d2a6cc, docutils-0.19\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_environment_toctree.py::test_get_toctree_for_collapse PASSED  [100%]\n\n============================== 1 passed in 0.62s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_environment_toctree.py",
+      "test_case": "test_get_toctree_for_maxdepth",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.2.0+/f35d2a6cc, docutils-0.19\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_environment_toctree.py::test_get_toctree_for_maxdepth PASSED  [100%]\n\n============================== 1 passed in 0.62s ===============================\n",
+      "stderr": ""
+    },
+    {
+      "test_file": "tests/test_environment_toctree.py",
+      "test_case": "test_get_toctree_for_includehidden",
+      "test_type": "PASS_TO_PASS",
+      "exit_code": 0,
+      "stdout": "============================= test session starts ==============================\nplatform linux -- Python 3.10.17, pytest-8.3.5, pluggy-1.5.0 -- /usr/local/bin/python\ncachedir: .pytest_cache\nhypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(PosixPath('/app/repo/.hypothesis/examples'))\nlibraries: Sphinx-5.2.0+/f35d2a6cc, docutils-0.19\nbase tempdir: /tmp/pytest-of-root/pytest-0\nrootdir: /app/repo\nconfigfile: setup.cfg\nplugins: asdf-4.1.0, arraydiff-0.6.1, astropy-0.11.0, mock-3.14.0, remotedata-0.4.1, doctestplus-1.4.0, hypothesis-6.131.9, astropy-header-0.2.2, filter-subpackage-0.2.0, cov-6.1.1\ncollecting ... collected 1 item\n\ntests/test_environment_toctree.py::test_get_toctree_for_includehidden PASSED [100%]\n\n============================== 1 passed in 0.61s ===============================\n",
+      "stderr": ""
+    }
+  ]
+}

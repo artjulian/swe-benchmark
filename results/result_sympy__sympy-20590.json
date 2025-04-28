@@ -1,0 +1,13 @@
+{
+  "instance_id": "sympy__sympy-20590",
+  "results": [
+    {
+      "test_file": "sympy/core/_print_helpers.py",
+      "test_case": "None",
+      "test_type": "None",
+      "exit_code": 5,
+      "stdout": "",
+      "stderr": "Could not find target file sympy/core/_print_helpers.py in repo sympy/sympy"
+    }
+  ]
+}
